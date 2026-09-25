@@ -11,7 +11,7 @@ st.set_page_config(
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("traffic_sign_cnn.keras")
+    return tf.keras.models.load_model("traffic_sign_cnn(2).keras")
 
 model = load_model()
 
